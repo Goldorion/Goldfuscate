@@ -1,0 +1,11 @@
+{
+  "id": "goldfuscate",
+  "minversion": 202000500000,
+  "info": {
+    "name": "Goldfuscate",
+    "version": "1.0.0",
+    "description": "Use the Obfuscate API in your mods",
+    "author": "Goldorion",
+    "credits": "MrCrayfish"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dependencies_provided": [
+    {
+      "name": "entity",
+      "type": "entity"
+    },
+    {
+      "name": "playerModel",
+      "type": "playerModel"
+    }
+  ],
+  "cancelable": "false",
+  "required_apis": [
+    "obfuscate"
+  ]
+}
