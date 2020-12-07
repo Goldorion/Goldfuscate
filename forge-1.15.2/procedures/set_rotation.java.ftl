@@ -1,1 +1,1 @@
-playerModel.${field$modelRenderer}.${field$action} = ${input$value};
+playerModel.${field$modelRenderer}.${field$action} = (float) ${input$value};

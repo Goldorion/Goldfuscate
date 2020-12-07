@@ -3,7 +3,7 @@
   "minversion": 202000500000,
   "info": {
     "name": "Goldfuscate",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Use the Obfuscate API in your mods",
     "author": "Goldorion",
     "credits": "MrCrayfish"
