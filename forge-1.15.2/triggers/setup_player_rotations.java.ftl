@@ -1,3 +1,4 @@
+@OnlyIn(Dist.CLIENT)
 @SubscribeEvent public void setupPlayerRotations(PlayerModelEvent.SetupAngles.Post event){
 	Entity entity = event.getEntity();
   PlayerModel playerModel = event.getModelPlayer();
