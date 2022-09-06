@@ -7,6 +7,8 @@
     "version": "2.0",
     "description": "Use the Posture API in your mods",
     "author": "Goldorion",
-    "credits": "MrCrayfish"
+    "credits": "MrCrayfish",
+    "updateJSONURL": "https://raw.githubusercontent.com/Goldorion/Goldfuscate/master/update.json",
+    "pluginPageID": 68758
   }
 }
