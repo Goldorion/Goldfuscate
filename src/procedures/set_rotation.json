@@ -23,7 +23,7 @@
   "mcreator": {
     "toolbox_id": "posture",
     "toolbox_init": [
-      "<value name=\"value\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>"
+      "<value name=\"value\"><block type=\"math_singular_ops\"><field name=\"OP\">DEG2RAD</field><value name=\"NUM\"><block type=\"math_number\"><field name=\"NUM\">30</field></block></value></block></value>"
     ],
     "fields": [
       "modelRenderer",
