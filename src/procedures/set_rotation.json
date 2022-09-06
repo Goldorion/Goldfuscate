@@ -1,64 +1,14 @@
 {
   "args0": [
     {
-      "type": "field_dropdown",
+      "type": "field_data_list_selector",
       "name": "modelRenderer",
-      "options": [
-        [
-          "bipedHead",
-          "bipedHead"
-        ],
-        [
-          "bipedBody",
-          "bipedBody"
-        ],
-        [
-          "bipedRightArm",
-          "bipedRightArm"
-        ],
-        [
-          "bipedLeftArm",
-          "bipedLeftArm"
-        ],
-        [
-          "bipedRightLeg",
-          "bipedRightLeg"
-        ],
-        [
-          "bipedLeftLeg",
-          "bipedLeftLeg"
-        ]
-      ]
+      "datalist": "bipedparts"
     },
     {
-      "type": "field_dropdown",
+      "type": "field_data_list_selector",
       "name": "action",
-      "options": [
-        [
-          "rotationPointX",
-          "rotationPointX"
-        ],
-        [
-          "rotationPointY",
-          "rotationPointY"
-        ],
-        [
-          "rotationPointZ",
-          "rotationPointZ"
-        ],
-        [
-          "rotateAngleX",
-          "rotateAngleX"
-        ],
-        [
-          "rotateAngleY",
-          "rotateAngleY"
-        ],
-        [
-          "rotateAngleZ",
-          "rotateAngleZ"
-        ]
-      ]
+      "datalist": "partvars"
     },
     {
       "type": "input_value",
@@ -71,7 +21,7 @@
   "nextStatement": null,
   "colour": "130",
   "mcreator": {
-    "toolbox_id": "obfuscate",
+    "toolbox_id": "posture",
     "toolbox_init": [
       "<value name=\"value\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>"
     ],
@@ -83,10 +33,6 @@
       "value"
     ],
     "dependencies": [
-      {
-        "name": "entity",
-        "type": "entity"
-      },
       {
         "name": "playerModel",
         "type": "playerModel"

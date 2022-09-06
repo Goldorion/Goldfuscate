@@ -1,0 +1,41 @@
+{
+  "dependencies_provided": [
+    {
+      "name": "playerModel",
+      "type": "playerModel"
+    },
+    {
+      "name": "entity",
+      "type": "entity"
+    },
+    {
+      "name": "deltaTicks",
+      "type": "number"
+    },
+    {
+      "name": "limbSwing",
+      "type": "number"
+    },
+    {
+      "name": "limbSwingAmount",
+      "type": "number"
+    },
+    {
+      "name": "ageInTicks",
+      "type": "number"
+    },
+    {
+      "name": "headYaw",
+      "type": "number"
+    },
+    {
+      "name": "headPitch",
+      "type": "number"
+    }
+  ],
+  "side": "client",
+  "cancelable": "false",
+  "required_apis": [
+    "posture"
+  ]
+}

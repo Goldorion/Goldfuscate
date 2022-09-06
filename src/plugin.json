@@ -1,10 +1,11 @@
 {
   "id": "goldfuscate",
-  "minversion": 202100347317,
+  "weight": 2,
+  "minversion": 202200119518,
   "info": {
     "name": "Goldfuscate",
-    "version": "1.2",
-    "description": "Use the Obfuscate API in your mods",
+    "version": "2.0",
+    "description": "Use the Posture API in your mods",
     "author": "Goldorion",
     "credits": "MrCrayfish"
   }

@@ -8,5 +8,5 @@ forge-1.18.2:
       }
       dependencies {
           implementation fg.deobf("curse.maven:obfuscate-549235:3555813")
-      }      
+      }
 name: "Posture"

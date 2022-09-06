@@ -1,79 +1,25 @@
 {
   "args0": [
     {
-      "type": "field_dropdown",
+      "type": "field_data_list_selector",
       "name": "modelRenderer",
-      "options": [
-        [
-          "bipedHead",
-          "bipedHead"
-        ],
-        [
-          "bipedBody",
-          "bipedBody"
-        ],
-        [
-          "bipedRightArm",
-          "bipedRightArm"
-        ],
-        [
-          "bipedLeftArm",
-          "bipedLeftArm"
-        ],
-        [
-          "bipedRightLeg",
-          "bipedRightLeg"
-        ],
-        [
-          "bipedLeftLeg",
-          "bipedLeftLeg"
-        ]
-      ]
+      "datalist": "bipedparts"
     },
     {
-      "type": "field_dropdown",
+      "type": "field_data_list_selector",
       "name": "action",
-      "options": [
-        [
-          "rotationPointX",
-          "rotationPointX"
-        ],
-        [
-          "rotationPointY",
-          "rotationPointY"
-        ],
-        [
-          "rotationPointZ",
-          "rotationPointZ"
-        ],
-        [
-          "rotateAngleX",
-          "rotateAngleX"
-        ],
-        [
-          "rotateAngleY",
-          "rotateAngleY"
-        ],
-        [
-          "rotateAngleZ",
-          "rotateAngleZ"
-        ]
-      ]
+      "datalist": "partvars"
     }
   ],
   "output": "Number",
   "colour": "%{BKY_MATH_HUE}",
   "mcreator": {
-    "toolbox_id": "obfuscate",
+    "toolbox_id": "posture",
     "fields": [
       "modelRenderer",
       "action"
     ],
     "dependencies": [
-      {
-        "name": "entity",
-        "type": "entity"
-      },
       {
         "name": "playerModel",
         "type": "playerModel"
